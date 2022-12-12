@@ -29,6 +29,8 @@ nav li {
     margin: 20px;
     font-size: 20px;
 }
+
+
 li {
     display: inline;
 }
@@ -102,20 +104,25 @@ main h2 {
 .small_container {
     display: flex;
     flex-wrap: wrap;
-    
+     
 }
 
 .card {
-    margin: 10px auto;
+    display: flex;
+    
+    margin: 10px;
     position: relative;
     border: 2px solid var(--border);
     padding: 10px;
+    flex: 40%;
     
-    
+ 
 }
 
 .card img {
-    width: 100%; 
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
     
 }
 
@@ -129,3 +136,11 @@ main h2 {
     
 }
 
+.list {
+    text-align: center;
+}
+.list li {
+   
+    margin: 20px;
+    font-size: 20px; 
+}
