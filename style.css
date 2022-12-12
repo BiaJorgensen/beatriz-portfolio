@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Handwriting', cursive;
+    background-color: rgb(176, 212, 245);
+}
+
+header {
+   padding: 30px;
+   background: linear-gradient(pink,black);
+}
+
+h1 {
+    display: inline;
+    font-size: 40px;
+    background: none;
+}
+
+nav {
+    float: right;
+    background: none;
+}
+
+nav ul {
+   background: none; 
+}
+nav li {
+    margin: 20px;
+    font-size: 20px;
+    background: none;
+}
+li {
+    display: inline;
+}
