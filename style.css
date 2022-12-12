@@ -83,17 +83,21 @@ main h2 {
 }
 
 #charlie1 {
-    width: 75%;
+    width: 100%;
+    height: auto;
     
 }
 
-
 .card {
     position: relative;
-}
-.card img {
     width: 40%;
-    padding: 20px;  
+}
+
+.card img {
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
 }
 
 .card p {
