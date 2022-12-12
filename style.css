@@ -140,3 +140,8 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
