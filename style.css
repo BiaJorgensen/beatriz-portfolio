@@ -1,33 +1,56 @@
+:root {
+    --border:rgb(218, 38, 128);
+}
 * {
     box-sizing: border-box;
-    font-family: 'Lucida Handwriting', cursive;
-    background-color: rgb(176, 212, 245);
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: black;
+    color: white;
 }
 
 header {
    padding: 30px;
-   background: linear-gradient(pink,black);
+   border-bottom: 2px solid var(--border);
 }
 
 h1 {
     display: inline;
     font-size: 40px;
-    background: none;
+    color: rgb(20, 194, 229);
 }
 
 nav {
     float: right;
-    background: none;
+    
 }
 
-nav ul {
-   background: none; 
-}
 nav li {
     margin: 20px;
     font-size: 20px;
-    background: none;
 }
 li {
     display: inline;
 }
+
+.quote {
+    font-style: italic;
+    text-align: end;
+    padding: 5px 30px;
+    border-bottom: 2px solid var(--border);
+}
+
+.quote h2, h3, h4, h5 {
+margin: 5px;
+}
+.quote h2, h3 {
+    font-size: 18px;
+}
+
+.quote h4 {
+    font-size: 16px;
+}
+.quote h5 {
+    font-size: 14px;
+}
+
