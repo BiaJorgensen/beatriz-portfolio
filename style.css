@@ -77,6 +77,26 @@ main h2 {
     font-size: 25px;
 }
 
+.container {
+    display: inline-block;
+    text-align: center;
+}
 
+.container h2 {
+    text-align: start;
+}
 
+.card {
+    
+    flex: 1 0 0;
+}
+
+.card img {
+    width: 100%;
+    min-width: 300px;
+}
+
+#charlie1 {
+    width: 100%;
+}
 
