@@ -14,7 +14,7 @@ header, .quote, .aboutme, .container, .bottom {
     border-bottom: 2px solid rgb(218, 38, 128);
 }
 img, .main_card, .card {
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 header {
