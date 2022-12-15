@@ -96,6 +96,7 @@ main h2 {
 .main_card a {
     margin: 0;
 }
+
 .main_card a:hover {
     border-bottom: none;
 }
@@ -138,6 +139,7 @@ main h2 {
 .bottom ul {
     text-align: center;   
 }
+
 .bottom li {
     margin: 50px;
     font-size: 25px;    
