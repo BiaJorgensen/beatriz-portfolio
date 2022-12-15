@@ -13,6 +13,7 @@
 header, .quote, .aboutme, .container, .bottom {
     border-bottom: 2px solid rgb(218, 38, 128);
 }
+
 img, .main_card, .card {
     border-radius: 25px;
 }
@@ -90,6 +91,13 @@ main h2 {
     position: relative;
     border: double var(--main_color);
     padding: 10px;
+}
+
+.main_card a {
+    margin: 0;
+}
+.main_card a:hover {
+    border-bottom: none;
 }
 
 .main_card img {
